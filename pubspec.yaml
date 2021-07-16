@@ -1,0 +1,46 @@
+name: earthquake_map
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+flutter_icons:
+  android: "launcher_icon"
+
+  image_path: "C:\\Users\\tolga\\flutter_earthquake\\lib\\assets\\earthquake.jpg"
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  xml2json: 
+  http: ^0.13.3
+  xml_parser: ^1.0.0
+  sqflite: ^2.0.0+3
+  get: ^4.1.4
+  google_maps_flutter: 
+  percent_indicator: "^2.1.7+2"
+  google_fonts: ^2.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_launcher_icons: ^0.9.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - C:\\Users\\tolga\\flutter_earthquake\\lib\\assets\\earthquake.jpg
